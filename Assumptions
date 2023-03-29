@@ -1,0 +1,7 @@
+This document lists down all the assumptions during development phase. We need to clarify on these.
+1. Requirement says to create an in memory store. Does that mean do I have to use memory stores like h2 to persist the data?
+2. User can add only N number of songs.Post that i am not enabling any feature to add new songs.
+   As this seems incorrect, we need to check on this.
+3.I assume that user can add only N songs without playing them.If user wants to play any new song which is not in his current
+  playlist , we are allowing him to add it after removing the least recently played song.
+

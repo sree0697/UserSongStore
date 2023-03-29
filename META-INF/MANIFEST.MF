@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: UserSongStore
+Bundle-SymbolicName: UserSongStore
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Automatic-Module-Name: UserSongStore
+Export-Package: com.india.user.store,
+ com.india.user.store.dao,
+ com.india.user.store.exception,
+ com.india.user.store.test
