@@ -1,22 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Song has been removed from PlayList ! Song1]]>
+    </line>
     <line>
       <![CDATA[Song has been added to Playlist Song1]]>
     </line>
+    <line>
+      <![CDATA[Song has been added to Playlist Song4]]>
+    </line>
+    <line>
+      <![CDATA[ Play List is already full. Cannot add new Songs]]>
+    </line>
+    <line>
+      <![CDATA[Song List should not be Null. Please provide valid List ]]>
+    </line>
+    <line>
+      <![CDATA[Song has been added to Playlist Song1]]>
+    </line>
+    <line>
+      <![CDATA[Song has been added to Playlist Song2]]>
+    </line>
+    <line>
+      <![CDATA[Song has been removed from PlayList ! Song1]]>
+    </line>
+    <line>
+      <![CDATA[Song has been added to Playlist Song1]]>
+    </line>
+    <line>
+      <![CDATA[Song has been added to Playlist Song3]]>
+    </line>
+    <line>
+      <![CDATA[Song has been added to Playlist Song4]]>
+    </line>
+    <line>
+      <![CDATA[Song has been added to Playlist Song5]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-03-30T01:48:30 IST" name="Default suite" finished-at="2023-03-30T01:48:30 IST" duration-ms="77">
+  <suite started-at="2023-03-30T11:34:35 IST" name="Default suite" finished-at="2023-03-30T11:34:35 IST" duration-ms="115">
     <groups>
     </groups>
-    <test started-at="2023-03-30T01:48:30 IST" name="Default test" finished-at="2023-03-30T01:48:30 IST" duration-ms="77">
+    <test started-at="2023-03-30T11:34:35 IST" name="Default test" finished-at="2023-03-30T11:34:35 IST" duration-ms="115">
       <class name="com.india.user.store.test.PlayListTest">
-        <test-method signature="testScenario1()[pri:0, instance:com.india.user.store.test.PlayListTest@2177849e]" started-at="2023-03-30T01:48:30 IST" name="testScenario1" finished-at="2023-03-30T01:48:30 IST" duration-ms="17" status="PASS">
+        <test-method signature="testScenario1()[pri:0, instance:com.india.user.store.test.PlayListTest@865dd6]" started-at="2023-03-30T11:34:35 IST" name="testScenario1" finished-at="2023-03-30T11:34:35 IST" duration-ms="13" status="PASS">
           <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario1 -->
+        <test-method signature="testScenario2()[pri:0, instance:com.india.user.store.test.PlayListTest@865dd6]" started-at="2023-03-30T11:34:35 IST" name="testScenario2" finished-at="2023-03-30T11:34:35 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Song has been removed from PlayList ! Song1]]>
+            </line>
             <line>
               <![CDATA[Song has been added to Playlist Song1]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testScenario1 -->
+        </test-method> <!-- testScenario2 -->
+        <test-method signature="testScenario3()[pri:0, instance:com.india.user.store.test.PlayListTest@865dd6]" started-at="2023-03-30T11:34:35 IST" name="testScenario3" finished-at="2023-03-30T11:34:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Song has been added to Playlist Song4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testScenario3 -->
+        <test-method signature="testScenario4()[pri:0, instance:com.india.user.store.test.PlayListTest@865dd6]" started-at="2023-03-30T11:34:35 IST" name="testScenario4" finished-at="2023-03-30T11:34:35 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Play List is already full. Cannot add new Songs]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testScenario4 -->
+        <test-method signature="testScenario5()[pri:0, instance:com.india.user.store.test.PlayListTest@865dd6]" started-at="2023-03-30T11:34:35 IST" name="testScenario5" finished-at="2023-03-30T11:34:35 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Song List should not be Null. Please provide valid List ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testScenario5 -->
+        <test-method signature="testScenario6()[pri:0, instance:com.india.user.store.test.PlayListTest@865dd6]" started-at="2023-03-30T11:34:35 IST" name="testScenario6" finished-at="2023-03-30T11:34:35 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario6 -->
+        <test-method signature="testScenario7()[pri:0, instance:com.india.user.store.test.PlayListTest@865dd6]" started-at="2023-03-30T11:34:35 IST" name="testScenario7" finished-at="2023-03-30T11:34:35 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Song has been added to Playlist Song1]]>
+            </line>
+            <line>
+              <![CDATA[Song has been added to Playlist Song2]]>
+            </line>
+            <line>
+              <![CDATA[Song has been removed from PlayList ! Song1]]>
+            </line>
+            <line>
+              <![CDATA[Song has been added to Playlist Song1]]>
+            </line>
+            <line>
+              <![CDATA[Song has been added to Playlist Song3]]>
+            </line>
+            <line>
+              <![CDATA[Song has been added to Playlist Song4]]>
+            </line>
+            <line>
+              <![CDATA[Song has been added to Playlist Song5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testScenario7 -->
       </class> <!-- com.india.user.store.test.PlayListTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
