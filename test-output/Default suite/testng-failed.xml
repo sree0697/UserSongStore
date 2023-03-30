@@ -5,7 +5,10 @@
     <classes>
       <class name="com.india.user.store.test.PlayListTest">
         <methods>
+          <include name="testScenario2"/>
+          <include name="testScenario3"/>
           <include name="testScenario4"/>
+          <include name="testScenario1"/>
         </methods>
       </class> <!-- com.india.user.store.test.PlayListTest -->
     </classes>
