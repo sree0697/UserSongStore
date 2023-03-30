@@ -116,8 +116,6 @@ public class User {
             else{
                 throw new SongNotFound("Oops ! Current Song is not under your playList ");
             }
-        }else{
-            throw new PlayListEmpty("Sorry ! Looks like your play List is empty. Please add songs ");
         }
     }
 
@@ -125,7 +123,8 @@ public class User {
         if(playList.contains(s)){
               this.deleteSongFromPlayList(s);
         }else{
-            this.playList.remove(0);
+        	if(this.playList.size() >= capacity) {
+            this.playList.remove(0);}
         }
         this.addSongsToPlayList(s);
     }
